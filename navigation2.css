@@ -1,0 +1,49 @@
+h1{
+  color:blue;
+  text-align:center;
+}
+body{
+  margin:0;
+  padding:0;
+  background-color:pink;
+}
+a{
+ text-decoration:none;
+}
+nav{
+  background-color:lightblue;
+  font-size:18px;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  }
+ul{
+ list-style:none;
+ padding:0px;
+ margin:0px;
+ display:flex;
+ gap:10px;
+}
+li{
+ display:inline;
+text-decoration:none;
+ }
+.container{
+ background-color:yellow;
+border 2px solid red;
+padding:20px;
+margin:0px;
+display:flex;
+justify-content:space-between;
+}
+.item{
+ background-color:orange;
+border 5px solid red;
+padding:15px;
+margin:5px;
+}
+
+
+ 
+ 
+  

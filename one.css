@@ -1,0 +1,46 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+header{
+display:flex;
+justify-content:center;
+}
+.heading{
+color:red;
+text-align:center;
+margin:15px;
+}
+ul{
+ list-style:none;
+ justify-content:center;
+ padding:0px;
+ margin:10px;
+ }
+a{
+ text-decoration:none;
+}
+a:hover{
+ background:yellow;
+}
+li{
+display:inline;
+margin:40px;
+}
+nav{
+background-color:lightblue;
+text-align:right;
+font-size:25px;
+padding:10px;
+margin:5px;
+}
+button{
+background-color:pink;
+color:black;
+padding:5px;
+margin-top:10px;
+cursor:pointer;
+border-radius:5px;
+}
+
+ 
