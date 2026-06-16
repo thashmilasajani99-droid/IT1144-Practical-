@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+<div class="form-container">
+
+<center>
+<h2>Online Book Store</h2><br></center>
+<input type="text" id="name" placeholder="Enter Name"><br>
+<br>
+<input type="email" id="email" placeholder="Enter E-mail"><br>
+<br>
+<input type="text" id="phone" placeholder="Enter the Phone number"><br>
+<br>
+<p>Books</p>
+<select id ="books">
+<option>Harry Potter</option>
+<option>Rich Dad Poor Dad</option>
+<option>Web Design Basic</option>
+<option>Stephen Hawking</option>
+
+
+</select>
+<br><br>
+<div class="payment -title">Payment Method:</div>
+<br>
+
+<input type="radio" id="cash" name="payment" value="cash">
+<label for ="cash">Cash</label>
+
+<input type="radio" id="Card" name="payment" value="card">
+<label for="card">Card</label>
+
+<input type="radio" id="Online Transfer" name="payment" value="online transfer">
+<label for="card">Online Transfer</label><br>
+<br><br>
+<center>
+<button onclick ="bookOrder()">Submit</button>
+</center>
+</div>
+</div>
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
